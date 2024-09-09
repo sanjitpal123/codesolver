@@ -1,0 +1,12 @@
+/* styles.css */
+.chat-container {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .chat-message {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

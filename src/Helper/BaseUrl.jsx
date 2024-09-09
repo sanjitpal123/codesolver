@@ -1,0 +1,1 @@
+export const  BaseUrl="https://generativelanguage.googleapis.com/v1";
