@@ -7,7 +7,7 @@ const GetAnswer = async (query) => {
       url: `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${Api_Key}`,
       method: 'post',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json', 
       },
       data: {
         contents: [
