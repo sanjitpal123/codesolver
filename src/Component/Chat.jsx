@@ -5,7 +5,7 @@ import { Hands } from "@mediapipe/hands";
 import GetAnswer from "../Services/FetchData";
 import { Typewriter } from "react-simple-typewriter";
 import { MyContext } from "../Store/ContextStore";
-
+ 
 const Chat = () => {
   const [isRecognitionActive, setRecognitionActive] = useState(false);
   const [recognition, setRecognition] = useState(null);
